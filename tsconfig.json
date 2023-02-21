@@ -31,8 +31,5 @@
     "esModuleInterop": true,
     "resolveJsonModule": true
   },
-  "include": ["./src/index.ts", "./src/backgroundColourPlugin.ts"],
-  "buildOptions": {
-    "verbose": true
-  }
+  "include": ["./src/*"]
 }
