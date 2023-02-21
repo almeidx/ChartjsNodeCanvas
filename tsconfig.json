@@ -1,14 +1,12 @@
 {
   "compilerOptions": {
     /* Basic Options */
-    "target": "es2017",
-    "module": "commonjs",
+    "target": "ES2022",
+    "module": "NodeNext",
     "declaration": true,
     "sourceMap": true,
-    "outDir": "./dist/",
+    "outDir": "dist",
     "importHelpers": true,
-    "incremental": true,
-    "tsBuildInfoFile": "./.tsbuildinfo",
 
     /* Strict Type-Checking Options */
     "strict": true,
@@ -27,24 +25,13 @@
     "skipLibCheck": true,
 
     /* Module Resolution Options */
-    "moduleResolution": "node",
+    "moduleResolution": "nodenext",
     "baseUrl": "./",
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
-    "resolveJsonModule": true,
-
-    /* Source Map Options */
-    "inlineSourceMap": false,
-    "inlineSources": false,
-
-    /* Experimental Options */
-    "experimentalDecorators": true,
-    "emitDecoratorMetadata": true,
-    "pretty": true
+    "resolveJsonModule": true
   },
-  "include": [
-    "./src/**/*"
-  ],
+  "include": ["./src/index.ts", "./src/backgroundColourPlugin.ts"],
   "buildOptions": {
     "verbose": true
   }

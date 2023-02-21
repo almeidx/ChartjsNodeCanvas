@@ -4,6 +4,7 @@
   "description": "A node renderer for Chart.js using canvas.",
   "main": "./dist/index",
   "types": "./dist/index.d.ts",
+  "type": "module",
   "scripts": {
     "nvm": "cat .nvmrc | nvm use",
     "build": "tsc",
@@ -34,8 +35,11 @@
   },
   "readme": "README.md",
   "license": "MIT",
+  "files": [
+    "dist"
+  ],
   "dependencies": {
-    "canvas": "^2.8.0",
+    "@napi-rs/canvas": "^0.1.35",
     "tslib": "^2.3.1"
   },
   "peerDependencies": {
