@@ -1,7 +1,7 @@
 {
-  "name": "chartjs-node-canvas",
-  "version": "4.1.6",
-  "description": "A node renderer for Chart.js using canvas.",
+  "name": "@almeidx/chartjs-node-canvas",
+  "version": "1.0.0",
+  "description": "A node renderer for Chart.js using @napi-rs/canvas.",
   "main": "./dist/index",
   "types": "./dist/index.d.ts",
   "type": "module",
