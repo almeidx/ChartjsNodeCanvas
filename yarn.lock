@@ -3044,9 +3044,9 @@ __metadata:
   linkType: hard
 
 "ip@npm:^1.1.5":
-  version: 1.1.8
-  resolution: "ip@npm:1.1.8"
-  checksum: a2ade53eb339fb0cbe9e69a44caab10d6e3784662285eb5d2677117ee4facc33a64679051c35e0dfdb1a3983a51ce2f5d2cb36446d52e10d01881789b76e28fb
+  version: 1.1.9
+  resolution: "ip@npm:1.1.9"
+  checksum: b6d91fd45a856e3bd6d4f601ea0619d90f3517638f6918ebd079f959a8a6308568d8db5ef4fdf037e0d9cfdcf264f46833dfeea81ca31309cf0a7eb4b1307b84
   languageName: node
   linkType: hard
 
@@ -4051,10 +4051,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minipass@npm:^4.0.0":
-  version: 4.0.3
-  resolution: "minipass@npm:4.0.3"
-  checksum: a09f405e2f380ae7f6ee0cbb53b45c1fcc1b6c70fc3896f4d20649d92a10e61892c57bd9960a64cedf6c90b50022cb6c195905b515039c335b423202f99e6f18
+"minipass@npm:^5.0.0":
+  version: 5.0.0
+  resolution: "minipass@npm:5.0.0"
+  checksum: 425dab288738853fded43da3314a0b5c035844d6f3097a8e3b5b29b328da8f3c1af6fc70618b32c29ff906284cf6406b6841376f21caaadd0793c1d5a6a620ea
   languageName: node
   linkType: hard
 
@@ -5347,11 +5347,11 @@ __metadata:
   linkType: hard
 
 "semver@npm:^5.3.0, semver@npm:^5.6.0, semver@npm:^5.7.0, semver@npm:^5.7.1":
-  version: 5.7.1
-  resolution: "semver@npm:5.7.1"
+  version: 5.7.2
+  resolution: "semver@npm:5.7.2"
   bin:
-    semver: ./bin/semver
-  checksum: 57fd0acfd0bac382ee87cd52cd0aaa5af086a7dc8d60379dfe65fea491fb2489b6016400813930ecd61fd0952dae75c115287a1b16c234b1550887117744dfaf
+    semver: bin/semver
+  checksum: fb4ab5e0dd1c22ce0c937ea390b4a822147a9c53dbd2a9a0132f12fe382902beef4fbf12cf51bb955248d8d15874ce8cd89532569756384f994309825f10b686
   languageName: node
   linkType: hard
 
@@ -5795,16 +5795,16 @@ __metadata:
   linkType: hard
 
 "tar@npm:^6.1.11, tar@npm:^6.1.2":
-  version: 6.1.13
-  resolution: "tar@npm:6.1.13"
+  version: 6.2.1
+  resolution: "tar@npm:6.2.1"
   dependencies:
     chownr: ^2.0.0
     fs-minipass: ^2.0.0
-    minipass: ^4.0.0
+    minipass: ^5.0.0
     minizlib: ^2.1.1
     mkdirp: ^1.0.3
     yallist: ^4.0.0
-  checksum: 8a278bed123aa9f53549b256a36b719e317c8b96fe86a63406f3c62887f78267cea9b22dc6f7007009738509800d4a4dccc444abd71d762287c90f35b002eb1c
+  checksum: f1322768c9741a25356c11373bce918483f40fa9a25c69c59410c8a1247632487edef5fe76c5f12ac51a6356d2f1829e96d2bc34098668a2fc34d76050ac2b6c
   languageName: node
   linkType: hard
 
@@ -6112,11 +6112,11 @@ __metadata:
 
 "typescript@patch:typescript@^4.4.4#~builtin<compat/typescript>":
   version: 4.9.5
-  resolution: "typescript@patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=23ec76"
+  resolution: "typescript@patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=289587"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: ab417a2f398380c90a6cf5a5f74badd17866adf57f1165617d6a551f059c3ba0a3e4da0d147b3ac5681db9ac76a303c5876394b13b3de75fdd5b1eaa06181c9d
+  checksum: 1f8f3b6aaea19f0f67cba79057674ba580438a7db55057eb89cc06950483c5d632115c14077f6663ea76fd09fce3c190e6414bb98582ec80aa5a4eaf345d5b68
   languageName: node
   linkType: hard
 
@@ -6475,9 +6475,9 @@ __metadata:
   linkType: hard
 
 "word-wrap@npm:~1.2.3":
-  version: 1.2.3
-  resolution: "word-wrap@npm:1.2.3"
-  checksum: 30b48f91fcf12106ed3186ae4fa86a6a1842416df425be7b60485de14bec665a54a68e4b5156647dec3a70f25e84d270ca8bc8cd23182ed095f5c7206a938c1f
+  version: 1.2.5
+  resolution: "word-wrap@npm:1.2.5"
+  checksum: f93ba3586fc181f94afdaff3a6fef27920b4b6d9eaefed0f428f8e07adea2a7f54a5f2830ce59406c8416f033f86902b91eb824072354645eea687dff3691ccb
   languageName: node
   linkType: hard
 
